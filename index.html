@@ -36,27 +36,123 @@
                     <p id="settings-note">*Theme settings will be saved for <br>next time</p>
                 </div>
                 <div class="right-column">
-                    <div id="preview">
-                        <h3>What I Do!</h3>
-                        <p>I was a lead developper in a past life , now I enjoy teaching courses</p>
-                    </div>
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What I Do!</h3>
+                            <p>I was a lead developper in a past life , now I enjoy teaching courses</p>
+                            <div id="corner-br" class="corner"></div>
+                            <div id="corner-bl" class="corner"></div>
+                        </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="s2">
         <div class="main-container">
-            About
+
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas adipisci dolor deleniti fugit quaerat quos sed quod! Dignissimos, architecto nam!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas adipisci dolor deleniti fugit quaerat quos sed quod! Dignissimos, architecto nam!
+                    </p>
+                    <hr>
+                    
+
+                <h4>TOP EXPERTISE</h4>
+                <p>Fullstack developer with primary focus on Django + React <a target="_blank" href="">Download Resume</a></p>
+                
+                <div id="skills">
+                    <ul>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>Node</li>
+                    </ul>
+                    <ul>
+                        <li>Heroku</li>
+                        <li>AWS</li>
+                        <li>JS Chart</li>
+                        <li>HTML/CSS</li>
+                        <li>Googel Map API</li>
+                    </ul>
+                </div>
+                </div>
+
+
+                <div class="social-links">
+                    <img id="social_img" src="img/follow.jpg" alt="">
+                    <h3>Find me on twitter & Youtube</h3>
+                    <a target="_blank" href="#">Twitter : @micCrook</a><br>
+                    <a target="_blank" href="#">Youtube: Crookz Artwork</a>
+                </div>
+            </div>
+
         </div>
     </section>
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 style="text-align: center;">Some of my past Project</h3>
+
+            <div class="post-wrapper">
+
+                <div class="post">
+                    <img class="thumbnail" src="img/customer-dash.jpg" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Laboratory Management System</h6>
+                        <p class="post-intro">This is a simple text more text here.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="thumbnail" src="img/membership site.jpg" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Membership Website</h6>
+                        <p class="post-intro">This is a simple text more text here.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="thumbnail" src="img/ecom.jpg" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Online Store - Course Post Title</h6>
+                        <p class="post-intro">This is a simple text more text here.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
     <section class="s2">
         <div class="main-container">
-            Contact
+
+            <h3 style="text-align: center;">Get in Touch</h3>
+
+            <form action="#" id="contact-form">
+
+                <label for="name">Name</label>
+                <input type="text" class="input-field" name="name">
+                
+                <label for="subject">Subject</label>
+                <input type="text" class="input-field" name="subject">
+
+                <label for="email">Subject</label>
+                <input type="text" class="input-field" name="email">
+
+                <label for="message">Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+                <input type="submit" value="Send" id="submit-btn">
+            </form>
+
         </div>
     </section>
 </body>
