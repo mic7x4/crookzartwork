@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link  id="theme-style" href=""  rel="stylesheet">
     <title>Crookz Artwork</title>
 </head>
 <body>
@@ -28,10 +29,10 @@
                     <h5 style="text-align: center;line-height:0;">Personalize Theme</h5>
 
                     <div id="theme-option-wrapper">
-                        <div class="theme-dot" id="light-mode"></div>
-                        <div class="theme-dot" id="blue-mode"></div>
-                        <div class="theme-dot" id="green-mode"></div>
-                        <div class="theme-dot" id="purple-mode"></div>
+                        <div data-mode="light" class="theme-dot" id="light-mode"></div>
+                        <div data-mode="blue"  class="theme-dot" id="blue-mode"></div>
+                        <div data-mode="green"  class="theme-dot" id="green-mode"></div>
+                        <div data-mode="purple"  class="theme-dot" id="purple-mode"></div>
                     </div>
                     <p id="settings-note">*Theme settings will be saved for <br>next time</p>
                 </div>
@@ -108,9 +109,9 @@
                     <div class="post-preview">
                         <h6 class="post-title">Laboratory Management System</h6>
                         <p class="post-intro">This is a simple text more text here.</p>
-                        <a href="#">Read More</a>
+                        <a href="./post.html">Read More</a>
                     </div>
-                </div>
+                 </div>
                 <div class="post">
                     <img class="thumbnail" src="img/membership site.jpg" alt="">
                     <div class="post-preview">
@@ -155,5 +156,8 @@
 
         </div>
     </section>
+
+
+    <script src="js/index.js"></script>
 </body>
 </html>
